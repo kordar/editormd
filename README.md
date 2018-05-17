@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist editormd/kordar-editormd "*"
+php composer.phar require --prefer-dist kordar/editormd "*"
 ```
 
 or add
 
 ```
-"editormd/kordar-editormd": "*"
+"kordar/editormd": "*"
 ```
 
 to the require section of your `composer.json` file.
