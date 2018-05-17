@@ -1,0 +1,31 @@
+{
+    "name": "kordar/editormd",
+    "description": "editormd markdown extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "perpel",
+            "email": "572821520@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/editor.md": "1.5.*"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset":{
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "kordar\\editormd\\": ""
+        }
+    }
+}
